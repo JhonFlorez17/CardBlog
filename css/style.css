@@ -5,6 +5,7 @@ body{
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: rgba(97, 96, 96, 0.795);
 }
 .container{
     width: 70%;
@@ -27,8 +28,19 @@ body{
     padding: 0.5em;
 }
 
+.cabecera #logo{
+    width: 50px;
+    vertical-align: middle;
+    padding: 1em;
+}
+
 .cabecera .tagline{
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+
+.post{
+    background: white;
+    padding: 1em;
 }
